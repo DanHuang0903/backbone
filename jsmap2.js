@@ -93,13 +93,13 @@ var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
 
 
 //Draw the map use the streets layer and the cities layer
- var map = L.map('mapid', {
+ var map = L.map('mapid2', {
     center: [38, -92],
     zoom: 6.5,
     maxZoom: 7.5,
     minZoom: 5.5,
     maxBounds:L.latLngBounds([44,-98],[34,-86]),
-    layers:[streets,cities]
+    layers:[grayscale,cities]
 });
 
 
