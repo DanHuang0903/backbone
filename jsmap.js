@@ -113,7 +113,7 @@ for(var key in path){
 
 L.control.Legend({
     position:"bottomleft",
-    title:"Bandwith Utilization",
+    title:"Bandwidth Utilization",
     column:2,
     legends:[{
         label: "<= 20%",
